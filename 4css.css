@@ -1,0 +1,27 @@
+*
+{
+	background-color:gray;
+}
+student
+{
+	COLOR:red;
+	WIDTH:100%;
+}
+stname
+{
+	COLOR:orange;
+	FONT-FAMILY:forte;
+	FONT-SIZE:25PX;
+	MARGIN-TOP:20PX;
+	display:block;
+	
+}
+address
+{
+	COLOR:yellow;
+	line-height:30px;
+	FONT-FAMILY:courier;
+	FONT-SIZE:20PX;
+	display:block;
+}
+

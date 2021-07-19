@@ -1,0 +1,46 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE student_catalog [
+<!ELEMENT student_catalog (student+)>
+<!ELEMENT student (name, address, marks, hobbies)>
+<!ELEMENT name (fname, lname, mname)>
+<!ELEMENT address (houseno, streetname, cityname, state)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="ex3.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> shyam </xs:fname>
+	<xs:lname> sundar </xs:lname>
+	<xs:mname> K </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 101 </xs:houseno>
+	<xs:streetname> sulya </xs:streetname>
+	<xs:cityname> Udupi </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 85 </xs:marks>
+   <xs:hobbies> Dancing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Shayam </xs:fname>
+	<xs:lname> bhakthi</xs:lname>
+	<xs:mname> s </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 102 </xs:houseno>
+	<xs:streetname> Shayam Nagar </xs:streetname>
+	<xs:cityname> Manipal </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 95 </xs:marks>
+   <xs:hobbies> Singing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</xs:schema>
